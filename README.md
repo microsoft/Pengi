@@ -1,9 +1,21 @@
 # 🐧Pengi: An Audio Language Model for Audio Tasks
+[[`Paper`](https://arxiv.org/abs/2305.11834)] [`Checkpoints`]
+
 Pengi is an Audio Language Model that leverages Transfer Learning by framing all audio tasks as text-generation tasks. It takes as input, an audio recording, and text, and generates free-form text as output. The unified architecture of Pengi enables open-ended tasks and close-ended tasks without any additional fine-tuning or task-specific extensions.
 ![image](https://github.com/microsoft/Pengi/assets/28994673/22bb1235-0ef3-4f96-afc7-7f60810f8d45)
 
-# Coming soon
-Code to be updated after conference review.
+## Coming soon
+Code to be updated after review.
+
+## Citation
+```BibTeX
+@inproceedings{Pengi,
+  title={Pengi: An Audio Language Model for Audio Tasks},
+  author={Soham Deshmukh and Benjamin Elizalde and Rita Singh and Huaming Wang},
+  journal={arXiv preprint arXiv:2305.11834},
+  year={2023}
+}
+```
 
 ## Contributing
 
