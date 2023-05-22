@@ -2,7 +2,7 @@
 [[`Paper`](https://arxiv.org/abs/2305.11834)] [`Checkpoints`]
 
 Pengi is an Audio Language Model that leverages Transfer Learning by framing all audio tasks as text-generation tasks. It takes as input, an audio recording, and text, and generates free-form text as output. The unified architecture of Pengi enables open-ended tasks and close-ended tasks without any additional fine-tuning or task-specific extensions.
-![image](https://github.com/microsoft/Pengi/assets/28994673/22bb1235-0ef3-4f96-afc7-7f60810f8d45)
+![image](https://github.com/microsoft/Pengi/assets/28994673/abc714fb-cee3-4253-a753-0db4bd122144)
 
 ## Coming soon
 Code to be updated after review.
