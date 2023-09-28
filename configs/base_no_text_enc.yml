@@ -1,0 +1,39 @@
+# TEXT ENCODER CONFIG
+use_text_model: False
+text_model: 'openai/clip-vit-base-patch16'
+transformer_embed_dim: 512
+freeze_text_encoder_weights: True
+use_pretrained_clap_weights: False
+
+# AUDIO ENCODER CONFIG
+audioenc_name: 'HTSAT'
+out_emb: 768
+fmin: 50
+fmax: 8000
+n_fft: 1024
+hop_size: 320
+mel_bins: 64
+window_size: 1024
+specaug: False
+mixup: False
+use_pretrained_audioencoder: False
+freeze_audio_encoder_weights: False
+
+# CLAP PROJECTION SPACE CONFIG 
+d_proj: 1024
+
+# DATASET CONFIGS
+dataset_config: 
+  sampling_rate: 44100
+  duration: 7
+  enc_text_len: 40
+  dec_text_len: 77
+
+# DECODER CONFIG
+text_decoder: 'gpt2'
+prefix_length: 40
+prefix_length_clip: 40
+mapping_type: 'transformer'
+num_layers: 8
+normalize_prefix: True
+freeze_gpt_weights: True
