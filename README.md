@@ -25,11 +25,11 @@ pip install -r requirements.txt
 The wrapper supports two models. The `base` option is Pengi architecture reported in paper and shown above. The `base_no_text_enc` is the Pengi architecture without the text encoder and only $m_2$ to encode tokenized text. All models only support 44.1 kHz input audio.
 
 ## Usage
-The wrapper provides an easy way to get Pengi output given and audio and text input. To use the wrapper three things are required:
-- config: Choose between "base" or "base_no_text_enc"
-- audio_file_paths: List of audio file paths for inference 
-- text_prompts: List of input text prompts corresponding to each of the files in audio_file_paths. Example: ["generate metadata", "generate metadata"]. Refer to paper Table 1 and 11 for prompts and performance. The default recommendation is to "generate metadata" prompt
-- add_texts: List of additional text corresponding to each of the files in audio_file_paths and prompt in prompts. This is used additional text input user can provide to guide GPT2.
+The wrapper provides an easy way to get Pengi output given and audio and text input. To use the wrapper, inputs required are:
+- `config`: Choose between "base" or "base_no_text_enc"
+- `audio_file_paths`: List of audio file paths for inference 
+- `text_prompts`: List of input text prompts corresponding to each of the files in audio_file_paths. Example: ["generate metadata", "generate metadata"]. Refer to paper Table 1 and 11 for prompts and performance. The default recommendation is to "generate metadata" prompt
+- `add_texts`: List of additional text corresponding to each of the files in audio_file_paths and prompt in prompts. This is used additional text input user can provide to guide GPT2.
 
 Supported functions:
 - `generate`: Produces text response for the given audio file and text prompts
