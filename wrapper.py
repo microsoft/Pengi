@@ -161,7 +161,7 @@ class PengiWrapper():
         # Randomly sample a segment of audio_duration from the clip or pad to match duration
         audio_time_series, sample_rate = torchaudio.load(audio_path)
         resample_rate = self.args.sampling_rate
-        if resample:
+        if resample and resample_rate != sample_rate:
             resampler = T.Resample(sample_rate, resample_rate)
             audio_time_series = resampler(audio_time_series)
         audio_time_series = audio_time_series.reshape(-1)
