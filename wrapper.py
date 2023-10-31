@@ -165,6 +165,7 @@ class PengiWrapper():
             resampler = T.Resample(sample_rate, resample_rate)
             audio_time_series = resampler(audio_time_series)
         audio_time_series = audio_time_series.reshape(-1)
+        sample_rate = resample_rate
 
         # audio_time_series is shorter than predefined audio duration,
         # so audio_time_series is extended
