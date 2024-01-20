@@ -76,11 +76,13 @@ text_prefix, text_embeddings = pengi.get_prompt_embeddings(prompts=["generate me
 
 ## Citation
 ```BibTeX
-@inproceedings{Pengi,
-  title={Pengi: An Audio Language Model for Audio Tasks},
-  author={Soham Deshmukh and Benjamin Elizalde and Rita Singh and Huaming Wang},
-  journal={arXiv preprint arXiv:2305.11834},
-  year={2023}
+@misc{deshmukh2023pengi,
+      title={Pengi: An Audio Language Model for Audio Tasks}, 
+      author={Soham Deshmukh and Benjamin Elizalde and Rita Singh and Huaming Wang},
+      year={2023},
+      eprint={2305.11834},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
 }
 ```
 
