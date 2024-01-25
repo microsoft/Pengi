@@ -5,4 +5,4 @@ PyYAML==6.0
 PyYAML==6.0
 torch==2.0.0
 torchlibrosa==0.1.0
-transformers==4.28.1
+transformers==4.36.0
