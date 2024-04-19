@@ -76,13 +76,16 @@ text_prefix, text_embeddings = pengi.get_prompt_embeddings(prompts=["generate me
 
 ## Citation
 ```BibTeX
-@misc{deshmukh2023pengi,
-      title={Pengi: An Audio Language Model for Audio Tasks}, 
-      author={Soham Deshmukh and Benjamin Elizalde and Rita Singh and Huaming Wang},
-      year={2023},
-      eprint={2305.11834},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS}
+@inproceedings{deshmukh2023pengi,
+ author = {Deshmukh, Soham and Elizalde, Benjamin and Singh, Rita and Wang, Huaming},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {18090--18108},
+ publisher = {Curran Associates, Inc.},
+ title = {Pengi: An Audio Language Model for Audio Tasks},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/3a2e5889b4bbef997ddb13b55d5acf77-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023}
 }
 ```
 
